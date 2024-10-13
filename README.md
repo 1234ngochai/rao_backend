@@ -23,6 +23,7 @@ Follow these steps to set up the Rao backend server on your local machine.
 Clone the project from GitHub and navigate into the project directory:
 
 ```bash
+# Current Directory: /
 git clone https://github.com/yourusername/rao-backend.git
 cd rao-backend
 ```
@@ -32,6 +33,7 @@ cd rao-backend
 Create a virtual environment to isolate the project dependencies:
 
 ```bash
+# Current Directory: /rao-backend
 python -m venv venv
 ```
 
@@ -42,12 +44,14 @@ Activate the virtual environment:
 **Windows:**
 
 ```bash
+# Current Directory: /rao-backend
 venv\Scripts\activate
 ```
 
 **macOS/Linux:**
 
 ```bash
+# Current Directory: /rao-backend
 source venv/bin/activate
 ```
 
@@ -56,6 +60,7 @@ source venv/bin/activate
 Install the required dependencies from the requirements.txt file:
 
 ```bash
+# Current Directory: /rao-backend
 pip install -r requirements.txt
 ```
 
@@ -64,6 +69,7 @@ pip install -r requirements.txt
 Set up the database by applying the necessary migrations:
 
 ```bash
+# Current Directory: /rao-backend
 python manage.py migrate
 ```
 
@@ -72,6 +78,7 @@ python manage.py migrate
 To access the Django admin panel, you can create a superuser by running the following command:
 
 ```bash
+# Current Directory: /rao-backend
 python manage.py createsuperuser
 ```
 
@@ -82,6 +89,7 @@ Follow the prompts to create a username, email, and password.
 Start the Django development server:
 
 ```bash
+# Current Directory: /rao-backend
 python manage.py runserver
 ```
 

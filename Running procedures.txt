@@ -1,0 +1,8 @@
+activate virtual envinronment:
+
+- venv\Scripts\activate
+
+
+run when add or modify the database
+python manage.py makemigrations
+python manage.py migrate

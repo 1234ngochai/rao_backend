@@ -2,6 +2,22 @@
 
 A backend server for the Rao application, built with Django and Django REST Framework.
 
+## Table of Contents
+
+1. [Features](#features)
+2. [Prerequisites](#prerequisites)
+3. [Installation](#installation)
+   - [1. Clone the Repository](#1-clone-the-repository)
+   - [2. Set Up a Virtual Environment](#2-set-up-a-virtual-environment)
+   - [3. Activate the Virtual Environment](#3-activate-the-virtual-environment)
+   - [4. Install Dependencies](#4-install-dependencies)
+   - [5. Apply Database Migrations](#5-apply-database-migrations)
+   - [6. Create a Superuser (Optional)](#6-create-a-superuser-optional)
+   - [7. Run the Development Server](#7-run-the-development-server)
+4. [API Testing](#api-testing)
+   - [1. User Registration](#1-user-registration)
+5. [License](#license)
+
 ## Features
 
 - User registration and authentication

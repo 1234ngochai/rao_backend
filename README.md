@@ -5,7 +5,7 @@ A backend server for the Rao application, built with Django and Django REST Fram
 ## Features
 
 - User registration and authentication
-- Custom user model
+- Custom user model, user-manager
 - RESTful API endpoints
 
 ## Prerequisites
